@@ -12,6 +12,7 @@ pid File.expand_path('tmp/pids/unicorn.pid', ENV['RAILS_ROOT']).to_s
 stderr_path "/var/www/test_app/current/log/unicorn.log"
 stdout_path "/var/www/test_app/current/log/unicorn.log"
 
+listen "/tmp/unicorn.[test_app].sock"
 listen "/tmp/unicorn.test_app.sock"
 worker_processes 2
 timeout 30
