@@ -1,0 +1,3 @@
+export PATH="/usr/local/heroku/bin:/usr/bin:$PATH"
+export GEM_PATH="/Users/bondanherumurti/Documents/Projects/test_app/vendor/bundle"
+export GEM_HOME="/Users/bondanherumurti/Documents/Projects/test_app/vendor/bundle"
