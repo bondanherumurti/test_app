@@ -4,7 +4,7 @@ working_directory "/var/www/test_app"
 
 # Unicorn PID file location
 # pid "/path/to/pids/unicorn.pid"
-pid "/var/www/test_app/pids/unicorn.pid"
+pid File.expand_path('tmp/pids/unicorn.pid', ENV['RAILS_ROOT']).to_s
 
 # Path to logs
 # stderr_path "/path/to/log/unicorn.log"
